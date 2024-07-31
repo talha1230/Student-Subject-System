@@ -1,5 +1,21 @@
+# Student Management System Repository
+[![GitHub](https://img.shields.io/badge/-GitHub-%23555.svg?logo=github-sponsors)](https://github.com/talha1230/student-management-system)
+[![Chat](https://img.shields.io/discord/643523529131950086?label=Chat)](https://discord.gg/botunknow)
 
-# Student Subject System
+
+
+Welcome to the Student Management System repository, a comprehensive solution for managing student-related tasks and activities efficiently.
+
+## Features
+
+- **User-friendly Interface**: A sleek and intuitive UI for easy navigation and interaction.
+- **Student Profiles**: Create and manage profiles for each student, including personal details, academic records, and more.
+- **Course Management**: Organize courses, modules, and assignments seamlessly.
+- **Attendance Tracking**: Keep track of student attendance and generate reports.
+- **Grades and Progress Monitoring**: Record grades, track student progress, and generate progress reports.
+- **Communication Tools**: Integrated messaging system for communication between students, teachers, and administrators.
+- **Access Control**: Role-based access control to ensure data security and privacy.
+- **Responsive Design**: Mobile-friendly interface for access from any device.
 
 This project is a Student Subject Management System with a backend built using Spring Boot and a frontend built using React.
 
@@ -115,16 +131,19 @@ npm run build
 
 The production-ready files will be located in the `build` directory.
 
+## Contributors 👨‍💻
+
+[Contribute](.github/CONTRIBUTING.md) and join our community. Start
+by checking out the list of [open issues](https://github.com/talha1230/student-management-system/issues)
+marked [help wanted](https://github.com/talha1230/Student-Subject-System/issues?q=label:"help+wanted").
+
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](../../LICENSE) file for details.
+This source code is licensed under the MIT license found in the
+[LICENSE](https://github.com/talha1230/Student-Subject-System/blob/main/LICENSE) file.
 
-## Contributing
+---
 
-Contributions are welcome! Please read the [CONTRIBUTING.md](../../CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-## Contact
-
-If you have any questions or issues, please contact [yourname@yourorganization.com](mailto:yourname@yourorganization.com).
-```
+Made with ❤ [Instagram](https://instagram.com/talhakhan.exe)
+and [contributors](https://github.com/talha1230/Student-Subject-System/graphs/contributors).
 
