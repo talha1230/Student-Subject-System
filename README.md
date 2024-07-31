@@ -1,63 +1,69 @@
-# Student Management System Repository
+
+
+# 🎓 Student Management System
+
 [![GitHub](https://img.shields.io/badge/-GitHub-%23555.svg?logo=github-sponsors)](https://github.com/talha1230/student-management-system)
 [![Chat](https://img.shields.io/discord/643523529131950086?label=Chat)](https://discord.gg/botunknow)
 
+Welcome to the **Student Management System** repository! This project provides a comprehensive solution for managing student-related tasks and activities efficiently.
 
+## 🚀 Features
 
-Welcome to the Student Management System repository, a comprehensive solution for managing student-related tasks and activities efficiently.
+- **🌟 User-friendly Interface**: Intuitive and sleek UI for seamless navigation.
+- **👤 Student Profiles**: Create and manage detailed student profiles, including personal and academic information.
+- **📚 Course Management**: Organize courses, modules, and assignments with ease.
+- **📈 Attendance Tracking**: Monitor student attendance and generate insightful reports.
+- **📊 Grades and Progress Monitoring**: Record grades, track progress, and generate reports on student achievements.
+- **💬 Communication Tools**: Integrated messaging system for smooth interactions between students, teachers, and administrators.
+- **🔒 Access Control**: Role-based access to ensure secure and private data management.
+- **📱 Responsive Design**: Mobile-friendly interface for convenient access from any device.
 
-## Features
+## 🛠️ Prerequisites
 
-- **User-friendly Interface**: A sleek and intuitive UI for easy navigation and interaction.
-- **Student Profiles**: Create and manage profiles for each student, including personal details, academic records, and more.
-- **Course Management**: Organize courses, modules, and assignments seamlessly.
-- **Attendance Tracking**: Keep track of student attendance and generate reports.
-- **Grades and Progress Monitoring**: Record grades, track student progress, and generate progress reports.
-- **Communication Tools**: Integrated messaging system for communication between students, teachers, and administrators.
-- **Access Control**: Role-based access control to ensure data security and privacy.
-- **Responsive Design**: Mobile-friendly interface for access from any device.
-
-This project is a Student Subject Management System with a backend built using Spring Boot and a frontend built using React.
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
+Before you begin, make sure you have the following installed:
 
 - Java Development Kit (JDK) 17 or higher
 - Node.js and npm (Node Package Manager)
 - Maven
 - Visual Studio Code
 
-## Setting Up the Project
+## 🚧 Setup Instructions
 
 ### Backend
 
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourorganization/student-subject-system.git
-    cd student-subject-system/backend
+    git clone https://github.com/talha1230/student-management-system.git
+    cd student-management-system/backend
     ```
 
-2. **Open the backend folder in Visual Studio Code:**
+2. **Update database credentials:**
+   Modify the `application.properties` file with your MySQL server credentials.
+
+    ```
+    src/main/resources/application.properties
+    ```
+
+3. **Open the backend project in Visual Studio Code:**
 
     ```sh
     code .
     ```
 
-3. **Build the project using Maven:**
+4. **Build the project:**
 
     ```sh
     mvn clean install
     ```
 
-4. **Run the Spring Boot application:**
+5. **Run the Spring Boot application:**
 
     ```sh
     mvn spring-boot:run
     ```
 
-    The backend server should now be running on `http://localhost:8080`.
+    The backend server will be accessible at [http://localhost:8080](http://localhost:8080).
 
 ### Frontend
 
@@ -67,13 +73,13 @@ Before you begin, ensure you have met the following requirements:
     cd ../frontend
     ```
 
-2. **Open the frontend folder in Visual Studio Code:**
+2. **Open the frontend project in Visual Studio Code:**
 
     ```sh
     code .
     ```
 
-3. **Install the dependencies:**
+3. **Install dependencies:**
 
     ```sh
     npm install
@@ -85,13 +91,13 @@ Before you begin, ensure you have met the following requirements:
     npm start
     ```
 
-    The frontend application should now be running on `http://localhost:3000`.
+    The frontend will be accessible at [http://localhost:3000](http://localhost:3000).
 
-## Running Tests
+## 🧪 Running Tests
 
 ### Backend Tests
 
-To run the backend tests, navigate to the `backend` directory and use Maven:
+To run backend tests, use Maven:
 
 ```sh
 cd backend
@@ -100,50 +106,47 @@ mvn test
 
 ### Frontend Tests
 
-To run the frontend tests, navigate to the [`frontend`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FD%3A%2FStudent-Subject-System%2Ffrontend%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "d:\Student-Subject-System\frontend") directory and use npm:
+To run frontend tests, use npm:
 
 ```sh
 cd frontend
 npm test
 ```
 
-## Building for Production
+## 🏗️ Building for Production
 
 ### Backend
 
-To build the backend for production, use Maven:
+Build the backend for production with Maven:
 
 ```sh
 cd backend
 mvn clean package
 ```
 
-The production-ready JAR file will be located in the `target` directory.
+The production JAR file will be located in the `target` directory.
 
 ### Frontend
 
-To build the frontend for production, use npm:
+Build the frontend for production with npm:
 
 ```sh
 cd frontend
 npm run build
 ```
 
-The production-ready files will be located in the `build` directory.
+Production-ready files will be in the `build` directory.
 
-## Contributors 👨‍💻
+## 🤝 Contributors
 
-[Contribute](.github/CONTRIBUTING.md) and join our community. Start
-by checking out the list of [open issues](https://github.com/talha1230/student-management-system/issues)
-marked [help wanted](https://github.com/talha1230/Student-Subject-System/issues?q=label:"help+wanted").
+We welcome contributions! Check out the list of [open issues](https://github.com/talha1230/student-management-system/issues) and find ways to get involved.
 
-## License
+## 📜 License
 
-This source code is licensed under the MIT license found in the
-[LICENSE](https://github.com/talha1230/Student-Subject-System/blob/main/LICENSE) file.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/talha1230/student-management-system/blob/main/LICENSE) file for details.
 
 ---
 
-Made with ❤ [Instagram](https://instagram.com/talhakhan.exe)
-and [contributors](https://github.com/talha1230/Student-Subject-System/graphs/contributors).
+Made with ❤️ by [Talha Khan](https://instagram.com/talhakhan.exe) and our amazing contributors.
 
+---
