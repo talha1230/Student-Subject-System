@@ -8,19 +8,14 @@ import javax.persistence.Table;
 import javax.persistence.Column;
 
 @Entity
-@Table(name = "users")  // Optional, if you want to specify a different table name
+@Table(name = "users")  // Make sure this matches your actual table name
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "username")
     private String username;
-
-    @Column(name = "password")
     private String password;
-
-    @Column(name = "role")
     private String role;
 
     // Getters and Setters

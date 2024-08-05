@@ -10,9 +10,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
-          <h1>Student Management System</h1>
-        </header>
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />

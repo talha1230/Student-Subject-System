@@ -1,0 +1,188 @@
+.student-portal {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .Frame1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #110101;
+  }
+  
+  .Background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: radial-gradient(35.15% 35.15% at 54.26% 34.63%, #313030 2%, #020202 56%);
+  }
+  
+  .Group1 {
+    position: absolute;
+    width: 417px;
+    height: 100%;
+    left: 0;
+  }
+  
+  .Rectangle2 {
+    width: 167px;
+    height: 59px;
+    position: absolute;
+    left: 250px;
+    top: 733px;
+    background: #585B61;
+    border-radius: 34px;
+  }
+  
+  .Rectangle1 {
+    width: 171px;
+    height: 100%;
+    position: absolute;
+    background: #303236;
+  }
+  
+  .TextSection {
+    width: 664px;
+    height: 735px;
+    position: absolute;
+    left: 250px;
+    top: 118px;
+  }
+  
+  .Unimy {
+    color: #AD2547;
+    font-size: 128px;
+    font-family: 'Black Ops One';
+    font-weight: 400;
+    line-height: 252.19px;
+    letter-spacing: 6.40px;
+    word-wrap: break-word;
+  }
+  
+  .BacGroup {
+    position: absolute;
+    top: 163px;
+  }
+  
+  .Bac {
+    color: #FFB800;
+    font-size: 48px;
+    font-family: 'Cabin';
+    font-weight: 700;
+    line-height: 94.57px;
+    letter-spacing: 2.40px;
+    word-wrap: break-word;
+  }
+  
+  .Group {
+    color: white;
+    font-size: 40px;
+    font-family: 'Cabin';
+    font-weight: 400;
+    line-height: 78.81px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+  }
+  
+  .GetStarted {
+    position: absolute;
+    top: 629px;
+    color: #EBE1E1;
+    left: 15px;
+    font-size: 20px;
+    font-family: 'Cabin';
+    font-weight: 400;
+    line-height: 36.70px;
+    letter-spacing: -0.1px;
+    word-wrap: break-word;
+}
+  
+  .Welcome {
+    position: absolute;
+    top: 301px;
+    color: white;
+    font-size: 48px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    line-height: 94.57px;
+    letter-spacing: 2.40px;
+    word-wrap: break-word;
+  }
+  
+  .WorkingTogether {
+    position: absolute;
+    top: 401px;
+    color: #F1ECEC;
+    font-size: 14px;
+    font-family: 'Cabin';
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27.58px;
+    letter-spacing: 1.61px;
+    word-wrap: break-word;
+  }
+  
+  .Subject {
+    position: absolute;
+    width: 804.55px;
+    height: 676.25px;
+    left: 788px;
+    top: 277px;
+  }
+  
+  .Shoes {
+    width: 672.55px;
+    height: 403.71px;
+    position: absolute;
+    transform: rotate(-30.46deg);
+    transform-origin: 193px 218px;
+    border-radius: 30px;
+  }
+  
+  .Shadow {
+    position: absolute;
+    width: 703.64px;
+    height: 70.40px;
+    left: 61.23px;
+    top: 431.95px;
+    background: linear-gradient(90deg, rgba(58.44, 56.98, 56.98, 0.58) 0%, rgba(41.44, 41.44, 41.44, 0.13) 100%);
+    border-radius: 9999px;
+    filter: blur(43px);
+  }
+  
+  .Ellipse1 {
+    position: absolute;
+    width: 354.02px;
+    height: 373.9px;
+    left: 641px;
+    top: 124px;
+    background: linear-gradient(291deg, rgba(94.56, 93.77, 93.77, 0.03) 0%, rgba(94.56, 93.77, 93.77, 0.03) 0%, rgba(109.44, 105.79, 105.79, 0.02) 100%);
+    border-radius: 9999px;
+    -webkit-backdrop-filter: blur(55px);
+    backdrop-filter: blur(2px);
+}
+  
+  .WeTakeOverTheAi {
+    position: absolute;
+    left: 45px;
+    top: 825px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    color: white;
+    font-size: 24px;
+    font-family: 'Cabin';
+    font-weight: 600;
+    line-height: 47.29px;
+    letter-spacing: 22.20px;
+    word-wrap: break-word;
+  }
+  
+  .Vector1 {
+    width: 168px;
+    height: 142px;
+    position: absolute;
+    left: 1px;
+    top: 3px;
+    border: 1px solid black;
+}
